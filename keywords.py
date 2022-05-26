@@ -17,7 +17,7 @@ SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 700
 
 CARD_WIDTH = 150
-CARD_HEIGHT = 100
+CARD_HEIGHT = 150
 CARD_SPACING = 20
 
 # keys to be used in the word card dict to access associated info

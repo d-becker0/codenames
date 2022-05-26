@@ -9,8 +9,9 @@ word_font = pygame.font.SysFont("monospace", 15)
 
 class DisplayController:
     def __init__(self):
-        self.screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
-        #self.screen.set_caption('Codenames')
+        self.display= pygame.display
+        self.screen = self.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
+        self.display.set_caption('Codenames')
         self.buttons=[]
         self.button_to_update=None
         self.board=''
